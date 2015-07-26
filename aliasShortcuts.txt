@@ -1,0 +1,10 @@
+# Useful aliases for JetsonBot
+alias ros='roslaunch turtlebot_bringup minimal.launch'
+alias 3d='roslaunch turtlebot_bringup 3dsensor.launch'
+alias joy='roslaunch turtlebot_teleop nyko_teleop.launch'
+alias gmap='roslaunch turtlebot_navigation gmapping_demo.launch'
+
+# Useful aliases for Jetson Robot Operating Center
+alias dashboard='roslaunch turtlebot_dashboard turtlebot_dashboard.launch'
+alias jbnav='roslaunch turtlebot_rviz_launchers view_navigation.launch'
+alias jbviz='roslaunch turtlebot_rviz_launchers view_robot_remote.launch --screen'
