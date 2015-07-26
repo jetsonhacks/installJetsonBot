@@ -4,22 +4,28 @@ The JetsonBot is a ROS Turtlebot based robot using a NVIDIA Jetson TK1 and an iR
 There are two possible installations from the scripts in this repository:
 
 1) Install on Jetson TK1 on a JetsonBot 
+
 2) Install Robot Operating Center (ROC) on a separate Jetson TK1 or PC
 
 The first two steps are the same for both installations.
 The scripts assume a clean installation of ROS.
 
 First build a catkin workspace for the installation. The directory will be named ~/jetsonbot
+
 1) $ ./createJetsonBotWS.sh
+
 Second install the TurtleBot software and dependencies
+
 2) $ ./installJetsonBot.sh
 
 The third step sets up environment variables in ~/.bashrc which configure the JetsonBot
 
 For the JetsonBot itself:
+
 $ ./setupBot.sh
 
-For the Robot Operating Center::
+For the Robot Operating Center:
+
 $ ./setupROC.sh
 
 In both cases, there will need to be some adjustment of the IP addresses of the machines involved.
